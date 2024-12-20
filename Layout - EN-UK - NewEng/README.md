@@ -10,7 +10,7 @@ Ī g̊es ī ǻlsō nēd tŏ dėtérmin ƕiч ar ðe mōst cómon di�
 Tŏ dėtérmin ðis, Ī wil tāk ðe list ov ðe mōst cómon 5000 werdz in ðe Ėŋgliʃ láŋg̊uij, rēspél ðem in NēwEŋ, and ánalȳz ðe distribūťon ov ðe dīacrítics. Ūziŋ ðat dāta, Ī can dėçīd ƕiч dīacrítics tŏ pŭt on ƕiч kēyz.
 Ðis dāta wȣld ǻlsō help wið rēpozíťoniŋ ðe nēw léter kēyz ðat ar cúrently on ðe númber rōw.
 Ē.ǧ.: 	ŋ on 6 iz tꝏ far aut ov rēàч from bōþ hōm kēy pozíťonz, and it iz an extrēmly cómon léter; 
-	ꝏ, ʞ and φ are on 7, 8 and 9, yet ar rărly ūzd. Ålsō ȝ on 5 sēmz tŏ bē a wāst bėcåz 5 iz ēzy (easy) tŏ rēч (reach) but ȝ iz rărly ūzd. 
+	* ꝏ, ʞ and φ are on 7, 8 and 9, yet ar rărly ūzd. Ålsō ȝ on 5 sēmz tŏ bē a wāst bėcåz 5 iz ēzy (easy) tŏ rēч (reach) but ȝ iz rărly ūzd. 
 	It is préferabl tŏ kēp nēw léterz on ðe sīd ov ðe léterz ðat ðey rėplāç.
 	ŋ ʃȣld bē on ðe sām sīd az n.
 	ꝏ and ȣ ʃȣld bē nēr (near) o and ou.
