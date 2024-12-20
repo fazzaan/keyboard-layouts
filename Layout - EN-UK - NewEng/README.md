@@ -61,7 +61,7 @@ ō | ó | ŏ | ȯ | o̊ | ô | ǒ | ö | õ
 --|---|---|---|---|---|---|---|---
 [ | ] | # | { | } | ~ | v | b | ' 
 
-
+* # and \\ ar interчānjabl bėcåz ov díferent kēyboàrd lāyauts.
 * Sémï-cōlon ; and cōlon : ar ūzd for ç & Ç;
 * Cóma , fŭl-stop . and slaʃ / ar tꝏ impórtant tŏ bē rėplāçd wið dīacrítics.
 
@@ -83,7 +83,22 @@ For naw, ðe kēyboàrd lāyaut/s hav tŏ werk wið stándard ū́s-cāse
 
 ### Cómon Tȳpiŋ Sēquençėz ###
 
-* `vowel` + `]` + `[` = `ṓ` 
+#### Can be stressed:####
+ṓ yes  
+ố yes  
+o̊́ yes  
+ö́ yes  
+ắ and ĕ́ yes, other vowels no  
+ȯ́ yes  
+ok sō ðey can ål bē stresd.  
+
+
+* `ṓ` = `vowel` + `]` + `[`  
+* `ố` = `vowel` + `~` + `[`  
+* `o̊́` = `vowel` + `}` + `[` 
+* `ö́` = `vowel` + `b` + `[`  
+* `ŏ́` = `vowel` + `#` + `[`  
+* `ȯ́` = `vowel` + `{` + `[`  
 
 ## Later plans ##
 
