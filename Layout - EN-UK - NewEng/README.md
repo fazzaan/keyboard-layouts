@@ -1,10 +1,10 @@
 # Layout - EN-UK - NewEng
-Discourse on development of the keyboard layout, to fit the standard QWERTY construct.
+_Discourse on development of the keyboard layout, to fit the standard QWERTY construct._  
 
-Repurposes the number row for 11 of the 15 new letters.
+_Repurposes the number row for 11 of the 15 new letters._  
 
-wē can test ðis kēyboàrd lāyaut naw just bȳ tȳpiŋ ðis text hēr.  
-it iz clēàr ðat sôm werdz ar muч símpler tŏ tȳp ðan ôðerz.  
+Wē can test ðis kēyboàrd lāyaut naw just bȳ tȳpiŋ ðis text hēr.  
+It iz clēàr ðat sôm werdz ar muч símpler tŏ tȳp ðan ôðerz.  
 Ī g̊es ī ǻlsō nēd tŏ dėtérmin ƕiч ar ðe mōst cómon dīacrítics and ƕĕr tŏ plāç ðem on ðe kēyboàrd, and if wē can cōp wið haviŋ þrē ov ðem on ðe ʃift lāyer or if ðey ʃȣld bē mövd tŏ ðe primary lāyer.  
 
 Tŏ dėtérmin ðis, Ī wil tāk ðe list ov ðe mōst cómon 5000 werdz in ðe Ėŋgliʃ láŋg̊uij, rēspél ðem in NēwEŋ, and ánalȳz ðe distribūťon ov ðe dīacrítics. Ūziŋ ðat dāta, Ī can dėçīd ƕiч dīacrítics tŏ pŭt on ƕiч kēyz.  
@@ -21,9 +21,10 @@ _It is préferabl tŏ kēp nēw léterz on ðe sīd ov ðe léterz ðat �
 * Perhaps ʞ can bē mövd from 9, ʃifting ðe ôðerz wun plāç tŏ ðe rīȝt. (first usage of gh/ȝ in this entire document!)
 
 New number row idea:  
-```    \` 1 2 3 4 5 6 7 8 9 0  
-```    ƕ ʃ ч ð þ ʞ ȝ ŋ ꝏ ȣ φ  
-```
+` | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 
+--|---|---|---|---|---|---|---|---|---|---
+ƕ | ʃ | ч | ð | þ | ʞ | ȝ | ŋ | ꝏ | ȣ | φ  
+
 
 Key | Letter | Reason | Sound | Current English
 ----|--------|--------|-------|----------------
@@ -31,7 +32,7 @@ Key | Letter | Reason | Sound | Current English
 1   | ʃ      | Near s | /ʃ/ | sh
 2   | ч      | Near c | /ʧ/ | ch (from English & German)
 3   | ð      | Near d; good for pairing with e | /ð/ | th
-4   | þ      | Near þ; good for pairing with e and r | /θ/ | th
+4   | þ      | Near t; good for pairing with e and r | /θ/ | th
 5   | ʞ      | Near c; rarely used | /k/ | ch (from Greek)
 6   | ȝ      | Near g; rarely used | /◌\~f\~ɣ/ | gh
 7   | ŋ      | Near n; always used | ng, nk, nc, nx
