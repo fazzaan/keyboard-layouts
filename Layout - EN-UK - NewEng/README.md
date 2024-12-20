@@ -81,6 +81,10 @@ For naw, ðe kēyboàrd lāyaut/s hav tŏ werk wið stándard ū́s-cāse
   * cǻler
   * fǻliŋ
 
+### Cónsonants wið módifīerz inclūdėd ###
+
+* Ål prē-módifīd glyφs in ðe kēyboàrd lāyaut ar UN-combīnd, sō ðat Bákspāç can rėmöv ðe módifīer indėpéndently ov ðe bās léter.
+
 ### Cómon Tȳpiŋ Sēquençėz ###
 
 #### Can be stressed:####
