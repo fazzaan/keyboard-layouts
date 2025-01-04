@@ -1,3 +1,5 @@
+_Download latest release: [NewEng layout version 6.6](https://github.com/fazzaan/keyboard-layouts/releases)_  
+
 # Keyboard Layouts
 A repository of my custom keyboard layouts.  
 
