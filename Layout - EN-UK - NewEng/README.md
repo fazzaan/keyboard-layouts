@@ -61,7 +61,7 @@ ō | ó | ŏ | ȯ | o̊ | ô | ǒ | ö | õ
 --|---|---|---|---|---|---|---|---
 [ | ] | # | { | } | ~ | v | b | ' 
 
-* # and \\ ar interчānjabl bėcåz ov díferent kēyboàrd lāyauts.
+* \# and \\ ar interчānjabl bėcåz ov díferent kēyboàrd lāyauts.
 * Sémï-cōlon ; and cōlon : ar ūzd for ç & Ç;
 * Cóma , fŭl-stop . and slaʃ / ar tꝏ impórtant tŏ bē rėplāçd wið dīacrítics.
 
