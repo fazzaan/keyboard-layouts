@@ -21,7 +21,9 @@ _Currently all layouts are only for Windows._
 * [Repository](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20IPA)  
 
 # IPA Topographic layout 
+* [Latest release version 1.1](https://github.com/fazzaan/keyboard-layouts/releases/tag/TopoIPAv1.1)  
 * [Repository](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20IPA%20Topographic)  
 
 # NewVin layout 
-* [Repository](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20VN-VN%20-%20NewVin)  
+* [Repository](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20VN-VN%20-%20NewVin)
+* _Development currently suspended._  
