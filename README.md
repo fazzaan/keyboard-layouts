@@ -1,6 +1,6 @@
-_Download latest release: 
-* [NewEng layout version 6.6](https://github.com/fazzaan/keyboard-layouts/releases/tag/NEv6.6)_
-* [English IPA layout version 13](https://github.com/fazzaan/keyboard-layouts/releases/tag/EngIPAv13)  
+_Download latest releases:_  
+* _[NewEng layout version 6.6](https://github.com/fazzaan/keyboard-layouts/releases/tag/NEv6.6)_
+* _[English IPA layout version 13](https://github.com/fazzaan/keyboard-layouts/releases/tag/EngIPAv13)_  
 
 # Keyboard Layouts
 A repository of my custom keyboard layouts.  
