@@ -23,9 +23,10 @@ _Currently all layouts are only for Windows. Sorry!_
 * Abjoid is a conscript of my own, based on phonetics and visually inspired by Arabic.
 * It is not a true abjad, hence the _-oid_ name.
 * _Abjoid_ is the name of the script; _Abjang_ is the name of the orthographic usage of the script for English.
+* [Info on my Conlangs GitBook site](https://lang.gitbook.io/conlangs/creations/abjoid-conscript)
+  
 ### Downloads & repos
 * Starter pack: [Latest release, version M1 v6.0 (_M1v6_)](https://github.com/fazzaan/abjoid-distribution/releases/tag/M1v6-Starter-Pack)  
-* [Info on my Conlangs GitBook site](https://lang.gitbook.io/conlangs/creations/abjoid-conscript)  
 * [Repository - keyboard layout](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20AbjAng%20(Abjoid))
 * [Repository - Abjoid Script Distribution](https://github.com/fazzaan/abjoid-distribution)  
 
