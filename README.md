@@ -1,20 +1,15 @@
-_Download latest releases:_  
-* _[NewEng layout, version 7.2](https://github.com/fazzaan/keyboard-layouts/releases/tag/NEv7.2)_  
-* _[English IPA layout, version 13](https://github.com/fazzaan/keyboard-layouts/releases/tag/EngIPAv13)_
-* _[Abjoid conscript starter pack, version M1 v6.0 (_M1v6_)](https://github.com/fazzaan/abjoid-distribution/releases/tag/M1v6-Starter-Pack)_  
-
 # Keyboard Layouts
-A repository of my custom keyboard layouts.  
+_A repository of my custom keyboard layouts._  
 
 _Currently all layouts are only for Windows. Sorry!_  
 
-| Keyboard layout |  |
-|---|---|
-| **NewEng** keyboard layout | for typing in the new alphabet for English, NewEng. (This is _my_ NewEng, as someone else has already made another alphabet with the same name. Oops, sorry!) |
-| **English + IPA** keyboard layout | regular QWERTY layout with IPA symbols accessible on the `Alt Gr` layer. |
-| **Abjoid conscript** keyboard layout | for typing in my conscript _Abjoid_, designed for systematic consonant awareness. Conceptually based on Arabic. |
-| **IPA Topographic** layout | only IPA symbols (for English), mapped by physical position in the mouth. Designed for futuristic keyboards with LED displays on each key, as this is a useful layout but is hard to memorise. |
-| **NewVin** keyboard layout | _[Project suspended]_ - for typing in my new alphabet for Vietnamese, NewViet. |
+| Keyboard layout |  | Download |
+|---|---|---|
+| **NewEng** keyboard layout | for typing in the new alphabet for English, NewEng. (This is _my_ NewEng, as someone else has already made another alphabet with the same name. Oops, sorry!) | [v7.2](https://github.com/fazzaan/keyboard-layouts/releases/tag/NEv7.2) |
+| **English + IPA** keyboard layout | regular QWERTY layout with IPA symbols accessible on the `Alt Gr` layer. | [v13.0](https://github.com/fazzaan/keyboard-layouts/releases/tag/EngIPAv13) |
+| **Abjoid conscript** keyboard layout | for typing in my conscript _Abjoid_, designed for systematic consonant awareness. Conceptually based on Arabic. | [M1 v6.0](https://github.com/fazzaan/abjoid-distribution/releases/tag/M1v6-Starter-Pack) |
+| **IPA Topographic** layout | only IPA symbols (for English), mapped by physical position in the mouth. Designed for futuristic keyboards with LED displays on each key, as this is a useful layout but is hard to memorise. | [v1.1](https://github.com/fazzaan/keyboard-layouts/releases/tag/TopoIPAv1.1) | 
+| **NewVin** keyboard layout | _[Project suspended]_ - for typing in my new alphabet for Vietnamese, NewViet. | n/a |
 
 # NewEng layout — v7.2 
 * [Latest release, version 7.2](https://github.com/fazzaan/keyboard-layouts/releases/tag/NEv7.2)  
