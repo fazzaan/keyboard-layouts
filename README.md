@@ -13,7 +13,8 @@ _Currently all layouts are only for Windows. Sorry!_
 
 # NewEng layout — v7.2 
 * [Latest release, version 7.2](https://github.com/fazzaan/keyboard-layouts/releases/tag/NEv7.2)  
-* [Repository](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20NewEng)
+* [Repository - keyboard layout](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20NewEng)  
+* [Repository - NewEng Script distribution](https://github.com/fazzaan/neweng-distribution)  
 
 # English + IPA layout 
 * [Latest release version 13](https://github.com/fazzaan/keyboard-layouts/releases/tag/EngIPAv13)  
