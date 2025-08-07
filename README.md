@@ -1,24 +1,38 @@
 _Download latest releases:_  
-* _[NewEng layout version 6.6](https://github.com/fazzaan/keyboard-layouts/releases/tag/NEv6.6)_
-* _[English IPA layout version 13](https://github.com/fazzaan/keyboard-layouts/releases/tag/EngIPAv13)_  
+* _[NewEng layout, version 7.2](https://github.com/fazzaan/keyboard-layouts/releases/tag/NEv7.2)_  
+* _[English IPA layout, version 13](https://github.com/fazzaan/keyboard-layouts/releases/tag/EngIPAv13)_
+* _[Abjoid conscript starter pack, version M1 v6.0 (_M1v6_)](https://github.com/fazzaan/abjoid-distribution/releases/tag/M1v6-Starter-Pack)_  
 
 # Keyboard Layouts
 A repository of my custom keyboard layouts.  
 
-_Currently all layouts are only for Windows._  
+_Currently all layouts are only for Windows. Sorry!_  
 
-* **NewEng** keyboard layout — for typing in the new alphabet for English, NewEng.  
-* **English + IPA** keyboard layout — regular QWERTY layout with IPA symbols accessible on the `Alt Gr` layer.
-* **IPA Topographic** layout — only IPA symbols (for English), mapped by physical position in the mouth. Designed for futuristic keyboards with LED displays on each key, as this is a useful layout but is hard to memorise.
-* **NewVin** keyboard layout — for typing in my new alphabet for Vietnamese, NewViet.
+| Keyboard layout |  |
+|---|---|
+| **NewEng** keyboard layout | for typing in the new alphabet for English, NewEng. (This is _my_ NewEng, as someone else has already made another alphabet with the same name. Oops, sorry!) |
+| **English + IPA** keyboard layout | regular QWERTY layout with IPA symbols accessible on the `Alt Gr` layer. |
+| **Abjoid conscript** keyboard layout | for typing in my conscript _Abjoid_, designed for systematic consonant awareness. Conceptually based on Arabic. |
+| **IPA Topographic** layout | only IPA symbols (for English), mapped by physical position in the mouth. Designed for futuristic keyboards with LED displays on each key, as this is a useful layout but is hard to memorise. |
+| **NewVin** keyboard layout | _[Project suspended]_ - for typing in my new alphabet for Vietnamese, NewViet. |
 
-# NewEng layout — v6.6 
-* [Latest release version 6.6](https://github.com/fazzaan/keyboard-layouts/releases/tag/NEv6.6)  
+# NewEng layout — v7.2 
+* [Latest release, version 7.2](https://github.com/fazzaan/keyboard-layouts/releases/tag/NEv7.2)  
 * [Repository](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20NewEng)
 
 # English + IPA layout 
 * [Latest release version 13](https://github.com/fazzaan/keyboard-layouts/releases/tag/EngIPAv13)  
-* [Repository](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20IPA)  
+* [Repository](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20IPA)
+
+# Abjoid layout
+* Abjoid is a conscript of my own, based on phonetics and visually inspired by Arabic.
+* It is not a true abjad, hence the _-oid_ name.
+* _Abjoid_ is the name of the script; _Abjang_ is the name of the orthographic usage of the script for English.
+### Downloads & repos
+* Starter pack: [Latest release, version M1 v6.0 (_M1v6_)](https://github.com/fazzaan/abjoid-distribution/releases/tag/M1v6-Starter-Pack)  
+* [Info on my Conlangs GitBook site](https://lang.gitbook.io/conlangs/creations/abjoid-conscript)  
+* [Repository - keyboard layout](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20AbjAng%20(Abjoid))
+* [Repository - Abjoid Script Distribution](https://github.com/fazzaan/abjoid-distribution)  
 
 # IPA Topographic layout 
 * [Latest release version 1.1](https://github.com/fazzaan/keyboard-layouts/releases/tag/TopoIPAv1.1)  
