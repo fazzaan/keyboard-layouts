@@ -1,6 +1,7 @@
-## Latest version is 14.0.
+Check for latest version on [Releases page](https://github.com/fazzaan/keyboard-layouts/releases).  
 
-Download from [Releases page](https://github.com/fazzaan/keyboard-layouts/releases).  
+## Latest version is 14.0.
+Download [version 14.0 from Releases page](https://github.com/fazzaan/keyboard-layouts/releases/tag/EngIPAv14).
 View [ReadMe for version 14.0](https://github.com/fazzaan/keyboard-layouts/blob/main/Layout%20-%20EN-UK%20-%20IPA/ukaddi14/README.md).
 
 ### `AltGr` layer
