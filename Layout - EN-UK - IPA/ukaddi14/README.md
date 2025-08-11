@@ -1,0 +1,63 @@
+# UK with IPA v14.0 (based on CuBE)
+
+## Changelog v14 from v13  
+
+### Symbols  
+* IPA syllable stress marker [ **ˈ** ] added to `AltGr+2` for keyboards without the `VK_OEM_5` key.  
+	* Sub-stress marker [ **ˌ** ] still available on `AltGr+Shif+2`.  
+
+### Vowels  
+IPA vowels for my own vowel model (based on CuBE) are more intuitive and easier to access than in v13.  
+_Scroll to the end to see details for typing all vowels._
+* `AltGr` layer  
+  * ʉ on `AltGr+u`  
+  * ɪj on `AltGr+y`
+* `AltGr+Shift` layer
+  * aʉ on `AltGr+Shift+W`
+  * ɵʉ on `AltGr+Shift+U`
+  * ɜʉ on `AltGr+Shift+O`  
+  * ɑj on `AltGr+Shift+V` ( / ʌ + j = ɑj / )  
+* _Legacy symbols for old (standard) IPA and other accents_  
+  * ʊ on `AltGr+Shift+i`  
+  * æ on `AltGr+Shift+a`  
+
+
+### Consonants
+* added shortcuts to aspirated plosives:
+	* pʰ on `AltGr+p`  
+	* tʰ on `AltGr+t`  
+	* kʰ on `AltGr+k`  
+* moved θ from `y` to `f`, to make way for œ on `y`, and tʰ on `t`.  
+* added implosives ɓ and ɗ because I also type Vietnamese IPA  
+	* ɓ on `AltGr+Shift+b`  
+	* ɗ on `AltGr+Shift+d`  
+* moved Latin gamma ɣ to `AltGr+g`  
+
+
+## Detailed typing info
+
+### IPA Vowel Table  
+| `Key` | `AltGr` | `AltGr+Shft` |
+|-----|-------|------------|
+| `a`   | ɛj    | æ          |
+| `q`   | ɑ     | ɑː         |
+| `w`   | ʉ     | aʉ         |
+| `e`   | ə     |  ˞  (Rho colour) |
+| `r`   | ɹ     |  ʴ (Rho colour) |
+| `y`   | ɪj    | œ          |
+| `u`   | ɵ     | ɵʉ         |
+| `i`   | ɪ     | ʊ          |
+| `o`   | ɔ     | ɜʉ         |
+| `v`   | ʌ     | ɑj         |
+
+### Typing IPA diphthongs  
+| Diphthong | Sequence    |
+|-----------|-------------|
+| ɑj  | `AltGr+Shift+v`     | 
+| ɛj  | `AltGr+a`     | 
+| ɪj  | `AltGr+y` , `j`     | 
+| oj  | `o` , `j`           | 
+| aʉ  | `AltGr+Shift+w`     | 
+| ɜʉ  | `AltGr+Shift+o`     | 
+| ɔʉ  | `AltGr+o` + `AltGr+w` | 
+| ɵʉ  | `AltGr+Shift+u`     | 
