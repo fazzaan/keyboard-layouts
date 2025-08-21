@@ -66,8 +66,8 @@ _Scroll to the end to see details for typing all vowels._
 |-----------|-------------|
 | ɑj  | `AltGr+Shift+v`     | 
 | ɛj  | `AltGr+a`     | 
-| ɪj  | `AltGr+y` , `j`     | 
-| oj  | `o` , `j`           | 
+| ɪj  | `AltGr+y` or `j`     | 
+| oj  | `o` + `j`           | 
 | aʉ  | `AltGr+Shift+w`     | 
 | ɜʉ  | `AltGr+Shift+o`     | 
 | ɔʉ  | `AltGr+o` + `AltGr+w` | 
