@@ -3,6 +3,13 @@ _A repository of my custom keyboard layouts._
 
 _Currently all layouts are only for Windows. Sorry!_  
 
+## NEWS
+I am transitioning to Linux right now, December 2025.  
+To use Linux as my daily driver, I need keyboard layouts for my language teaching and other things.  
+Watch this space -- I expect to release my IPA keyboard for Linux in the next few days!  
+
+## Keyboard layouts
+
 | Keyboard layout |  | Download |
 |---|---|---|
 | **NewEng** keyboard layout | for typing in the new alphabet for English, NewEng. (This is _my_ NewEng, as someone else has already made another alphabet with the same name. Oops, sorry!) | [v7.2](https://github.com/fazzaan/keyboard-layouts/releases/tag/NEv7.2) |
