@@ -1,16 +1,16 @@
 # Keyboard Layouts
 _A repository of my custom keyboard layouts._  
 
-_Currently all layouts are only for Windows. Sorry!_  
+_Currently **most** layouts are only for Windows. Sorry!_  
 
 ## NEWS
-**NEW LINUX KEYBOARD LAYOUT AVAILABLE FOR ENGLISH-IPA 14.2.**  
-You can find it inside the [Layout - EN-UK - IPA](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20IPA) directory.  
+**NEW LINUX KEYBOARD LAYOUT AVAILABLE FOR ENGLISH-IPA v14.2.**  
+You can find it inside the [Layout - EN-UK - IPA / latest](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20IPA/latest) directory.  
 I haven't yet made a Release, but feel free to check the code out and install it if you want.  
 If you're using Linux, you'll wanna use the XKB version.  
-I'll write a Release soon with info and a guide on how to install it.  
+I'll write a Release soon with info and a guide on how to install it. (It's pretty straightforward.)  
 
-This keyboard layout was made possible with the [KLFC project](https://github.com/39aldo39/klfc) by [@39aldo39](https://github.com/39aldo39). Big thanks to them! 🙏  
+**This keyboard layout was made possible with the [KLFC project](https://github.com/39aldo39/klfc) by [@39aldo39](https://github.com/39aldo39). Big thanks to them! 🙏**  
 
 I am transitioning to Linux right now, December 2025.  
 To use Linux as my daily driver, I need keyboard layouts for my language teaching and other things.  
@@ -31,9 +31,12 @@ Watch this space -- I expect to release my various keyboard layouts for Linux in
 * [Repository - keyboard layout](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20NewEng)  
 * [Repository - NewEng Script distribution](https://github.com/fazzaan/neweng-distribution)  
 
-# English + IPA layout 
+# English + IPA layout — v13
 * [Latest release version 13](https://github.com/fazzaan/keyboard-layouts/releases/tag/EngIPAv13)  
 * [Repository](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20IPA)
+- [x] Windows
+- [x] Linux — v14.2
+- [ ] MacOS
 
 # Abjoid layout
 * Abjoid is a conscript of my own, based on phonetics and visually inspired by Arabic.
@@ -46,7 +49,7 @@ Watch this space -- I expect to release my various keyboard layouts for Linux in
 * [Repository - keyboard layout](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20AbjAng%20(Abjoid))
 * [Repository - Abjoid Script Distribution](https://github.com/fazzaan/abjoid-distribution)  
 
-# IPA Topographic layout 
+# IPA Topographic layout — v1.1
 * [Latest release version 1.1](https://github.com/fazzaan/keyboard-layouts/releases/tag/TopoIPAv1.1)  
 * [Repository](https://github.com/fazzaan/keyboard-layouts/tree/main/Layout%20-%20EN-UK%20-%20IPA%20Topographic)  
 
