@@ -3,8 +3,8 @@ set -eu
 
 xkb_dir_from=$(dirname "$0")
 xkb_dir_to="/usr/share/X11/xkb"
-layout="UK142IPA"
-description="UK with IPA v14.2 (based on CuBE)"
+layout="UK143IPA"
+description="UK+IPA v14.3 (based on CuBE)"
 mods=""
 
 OPTIND=1

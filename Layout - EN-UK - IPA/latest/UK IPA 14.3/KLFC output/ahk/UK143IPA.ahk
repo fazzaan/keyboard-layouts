@@ -69,8 +69,6 @@ DeadKey(baseChar, table, name := "") {
   }
 }
 
-*SC029::Send {Blind}{VKc0SC029 DownR} ; QWERTY ~: ~
-*SC029 up::Send {Blind}{VKc0SC029 Up}
 *SC002::Send {Blind}{VK31SC002 DownR} ; QWERTY 1: 1
 *SC002 up::Send {Blind}{VK31SC002 Up}
 *SC003::Send {Blind}{VK32SC003 DownR} ; QWERTY 2: 2
@@ -139,10 +137,12 @@ DeadKey(baseChar, table, name := "") {
 *SC026 up::Send {Blind}{VK4cSC026 Up}
 *SC027::Send {Blind}{VKbaSC027 DownR} ; QWERTY ;: ;
 *SC027 up::Send {Blind}{VKbaSC027 Up}
-*SC028::Send {Blind}{VKc0SC028 DownR} ; QWERTY ': ~
-*SC028 up::Send {Blind}{VKc0SC028 Up}
-*SC02b::Send {Blind}{VKdeSC02b DownR} ; QWERTY \: '
-*SC02b up::Send {Blind}{VKdeSC02b Up}
+*SC028::Send {Blind}{VKdeSC028 DownR} ; QWERTY ': '
+*SC028 up::Send {Blind}{VKdeSC028 Up}
+*SC029::Send {Blind}{VKc0SC029 DownR} ; QWERTY ~: ~
+*SC029 up::Send {Blind}{VKc0SC029 Up}
+*SC02b::Send {Blind}{VKdcSC02b DownR} ; QWERTY \: \
+*SC02b up::Send {Blind}{VKdcSC02b Up}
 *SC02c::Send {Blind}{VK5aSC02c DownR} ; QWERTY Z: Z
 *SC02c up::Send {Blind}{VK5aSC02c Up}
 *SC02d::Send {Blind}{VK58SC02d DownR} ; QWERTY X: X
@@ -167,15 +167,10 @@ DeadKey(baseChar, table, name := "") {
 *SC039 up::Send {Blind}{VK20SC039 Up}
 *SC056::Send {Blind}{VKdcSC056 DownR} ; QWERTY Iso: \
 *SC056 up::Send {Blind}{VKdcSC056 Up}
-*SC053::Send {Blind}{VK6eSC053 DownR} ; QWERTY KP_Dec: KP_Dec
-*SC053 up::Send {Blind}{VK6eSC053 Up}
-
-; QWERTY ~
-#if
-SC029::Send {Blind}{U+0060} ; `
-+SC029::Send {Blind}{U+007c} ; |
->!<^SC029::Send {Blind}{U+00ac} ; ¬
-+>!<^SC029::Send {Blind}{U+007c} ; |
+*SC053::Send {Blind}{VKbeSC053 DownR} ; QWERTY KP_Dec: .
+*SC053 up::Send {Blind}{VKbeSC053 Up}
+*SC11c::Send {Blind}{VKdSC11c DownR} ; QWERTY KP_Enter: KP_Enter
+*SC11c up::Send {Blind}{VKdSC11c Up}
 
 ; QWERTY 1
 #if
@@ -238,73 +233,27 @@ SC009::Send {Blind}{U+0038} ; 8
 SC00a::Send {Blind}{U+0039} ; 9
 +SC00a::Send {Blind}{U+0028} ; (
 >!<^SC00a::Send {Blind}{U+0261} ; ɡ
-+>!<^SC00a::Send {Blind}{U+27e9} ; ⟩
++>!<^SC00a::Return
 
 ; QWERTY 0
 #if
 SC00b::Send {Blind}{U+0030} ; 0
 +SC00b::Send {Blind}{U+0029} ; )
->!<^SC00b::
-; ̛
-if (DeadKeys.item("̛") == "") {
-  DeadKeys.item("̛") := ComObjCreate("Scripting.Dictionary")
-  DeadKeys.item("̛").item("o") := "ơ"
-  DeadKeys.item("̛").item("u") := "ư"
-  DeadKeys.item("̛").item("O") := "Ơ"
-  DeadKeys.item("̛").item("U") := "Ư"
-  DeadKeys.item("̛").item(" ") := "̛"
-}
-DeadKey("̛", DeadKeys.item("̛"), "cdk:̛")
-Return
-+>!<^SC00b::
-; ̊
-if (DeadKeys.item("̊") == "") {
-  DeadKeys.item("̊") := ComObjCreate("Scripting.Dictionary")
-  DeadKeys.item("̊").item("a") := "å"
-  DeadKeys.item("̊").item("u") := "ů"
-  DeadKeys.item("̊").item("w") := "ẘ"
-  DeadKeys.item("̊").item("A") := "Å"
-  DeadKeys.item("̊").item("U") := "Ů"
-  DeadKeys.item("̊").item("y") := "ẙ"
-  DeadKeys.item("̊").item(" ") := "̊"
-}
-DeadKey("̊", DeadKeys.item("̊"), "cdk:̊")
-Return
+>!<^SC00b::Send {Blind}{U+031b} ; ̛
++>!<^SC00b::Send {Blind}{U+030a} ; ̊
 
 ; QWERTY -
 #if
 SC00c::Send {Blind}{U+002d} ; -
 +SC00c::Send {Blind}{U+005f} ; _
->!<^SC00c::
-; ̂
-if (DeadKeys.item("̂") == "") {
-  DeadKeys.item("̂") := ComObjCreate("Scripting.Dictionary")
-  DeadKeys.item("̂").item("a") := "â"
-  DeadKeys.item("̂").item("e") := "ê"
-  DeadKeys.item("̂").item("o") := "ô"
-  DeadKeys.item("̂").item("A") := "Â"
-  DeadKeys.item("̂").item("E") := "Ê"
-  DeadKeys.item("̂").item("O") := "Ô"
-  DeadKeys.item("̂").item(" ") := "̂"
-}
-DeadKey("̂", DeadKeys.item("̂"), "cdk:̂")
-Return
+>!<^SC00c::Send {Blind}{U+0302} ; ̂
 +>!<^SC00c::Send {Blind}{U+2014} ; —
 
 ; QWERTY +
 #if
 SC00d::Send {Blind}{U+003d} ; =
 +SC00d::Send {Blind}{U+002b} ; +
->!<^SC00d::
-; ̆
-if (DeadKeys.item("̆") == "") {
-  DeadKeys.item("̆") := ComObjCreate("Scripting.Dictionary")
-  DeadKeys.item("̆").item("a") := "ă"
-  DeadKeys.item("̆").item("A") := "Ă"
-  DeadKeys.item("̆").item(" ") := "̆"
-}
-DeadKey("̆", DeadKeys.item("̆"), "cdk:̆")
-Return
+>!<^SC00d::Send {Blind}{U+0306} ; ̆
 +>!<^SC00d::Send {Blind}{U+2248} ; ≈
 
 ; QWERTY Q
@@ -323,8 +272,20 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0071} ; q
 }
 Return
->!<^SC010::Send {Blind}{U+0251} ; ɑ
-+>!<^SC010::Send {Blind}{U+0251} ; ɑ
+>!<^SC010::
+if not GetKeyState("CapsLock", "T") {
+  Send {Blind}{U+0251} ; ɑ
+} else {
+  Send {Blind}{U+0252} ; ɒ
+}
+Return
++>!<^SC010::
+if not GetKeyState("CapsLock", "T") {
+  Send {Blind}{U+0252} ; ɒ
+} else {
+  Send {Blind}{U+0251} ; ɑ
+}
+Return
 
 ; QWERTY W
 #if
@@ -452,8 +413,20 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0079} ; y
 }
 Return
->!<^SC015::Send {Blind}{U+0153} ; œ
-+>!<^SC015::Send {Blind}{U+0153} ; œ
+>!<^SC015::
+if not GetKeyState("CapsLock", "T") {
+  Send {Blind}{U+0153} ; œ
+} else {
+  Send {Blind}{U+0152} ; Œ
+}
+Return
++>!<^SC015::
+if not GetKeyState("CapsLock", "T") {
+  Send {Blind}{U+0152} ; Œ
+} else {
+  Send {Blind}{U+0153} ; œ
+}
+Return
 
 ; QWERTY U
 #if
@@ -566,6 +539,7 @@ if not GetKeyState("CapsLock", "T") {
 Return
 >!<^SC019::
 if not GetKeyState("CapsLock", "T") {
+  Send {Blind}{U+27e8} ; ⟨
 } else {
   Send {Blind}{U+27e9} ; ⟩
 }
@@ -574,6 +548,7 @@ Return
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+27e9} ; ⟩
 } else {
+  Send {Blind}{U+27e8} ; ⟨
 }
 Return
 
@@ -581,70 +556,15 @@ Return
 #if
 SC01a::Send {Blind}{U+005b} ; [
 +SC01a::Send {Blind}{U+007b} ; {
->!<^SC01a::
-; ̃
-if (DeadKeys.item("̃") == "") {
-  DeadKeys.item("̃") := ComObjCreate("Scripting.Dictionary")
-  DeadKeys.item("̃").item("n") := "ñ"
-  DeadKeys.item("̃").item("N") := "Ñ"
-  DeadKeys.item("̃").item("l") := "ɫ"
-  DeadKeys.item("̃").item("L") := "Ɫ"
-  DeadKeys.item("̃").item(" ") := "̃"
-}
-DeadKey("̃", DeadKeys.item("̃"), "cdk:̃")
-Return
-+>!<^SC01a::
-; ̄
-if (DeadKeys.item("̄") == "") {
-  DeadKeys.item("̄") := ComObjCreate("Scripting.Dictionary")
-  DeadKeys.item("̄").item("d") := "đ"
-  DeadKeys.item("̄").item("D") := "Đ"
-  DeadKeys.item("̄").item("a") := "ā"
-  DeadKeys.item("̄").item("æ") := "ǣ"
-  DeadKeys.item("̄").item("e") := "ē"
-  DeadKeys.item("̄").item("i") := "ī"
-  DeadKeys.item("̄").item("o") := "ō"
-  DeadKeys.item("̄").item("u") := "ū"
-  DeadKeys.item("̄").item("y") := "ȳ"
-  DeadKeys.item("̄").item("A") := "Ā"
-  DeadKeys.item("̄").item("Æ") := "Ǣ"
-  DeadKeys.item("̄").item("E") := "Ē"
-  DeadKeys.item("̄").item("I") := "Ī"
-  DeadKeys.item("̄").item("O") := "Ō"
-  DeadKeys.item("̄").item("U") := "Ū"
-  DeadKeys.item("̄").item("Y") := "Ȳ"
-  DeadKeys.item("̄").item(" ") := "̄"
-}
-DeadKey("̄", DeadKeys.item("̄"), "cdk:̄")
-Return
+>!<^SC01a::Send {Blind}{U+0303} ; ̃
++>!<^SC01a::Send {Blind}{U+0304} ; ̄
 
 ; QWERTY ]
 #if
 SC01b::Send {Blind}{U+005d} ; ]
 +SC01b::Send {Blind}{U+007d} ; }
 >!<^SC01b::Send {Blind}{U+0309} ; ̉
-+>!<^SC01b::
-; ̈
-if (DeadKeys.item("̈") == "") {
-  DeadKeys.item("̈") := ComObjCreate("Scripting.Dictionary")
-  DeadKeys.item("̈").item("a") := "ä"
-  DeadKeys.item("̈").item("e") := "ë"
-  DeadKeys.item("̈").item("i") := "ï"
-  DeadKeys.item("̈").item("o") := "ö"
-  DeadKeys.item("̈").item("u") := "ü"
-  DeadKeys.item("̈").item("w") := "ẅ"
-  DeadKeys.item("̈").item("y") := "ÿ"
-  DeadKeys.item("̈").item("A") := "Ä"
-  DeadKeys.item("̈").item("E") := "Ë"
-  DeadKeys.item("̈").item("I") := "Ï"
-  DeadKeys.item("̈").item("O") := "Ö"
-  DeadKeys.item("̈").item("U") := "Ü"
-  DeadKeys.item("̈").item("W") := "Ẅ"
-  DeadKeys.item("̈").item("Y") := "Ÿ"
-  DeadKeys.item("̈").item(" ") := "̈"
-}
-DeadKey("̈", DeadKeys.item("̈"), "cdk:̈")
-Return
++>!<^SC01b::Send {Blind}{U+0308} ; ̈
 
 ; QWERTY A
 #if
@@ -662,8 +582,20 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0061} ; a
 }
 Return
->!<^SC01e::Send {Blind}{U+00e6} ; æ
-+>!<^SC01e::Send {Blind}{U+00e6} ; æ
+>!<^SC01e::
+if not GetKeyState("CapsLock", "T") {
+  Send {Blind}{U+00e6} ; æ
+} else {
+  Send {Blind}{U+00c6} ; Æ
+}
+Return
++>!<^SC01e::
+if not GetKeyState("CapsLock", "T") {
+  Send {Blind}{U+00c6} ; Æ
+} else {
+  Send {Blind}{U+00e6} ; æ
+}
+Return
 
 ; QWERTY S
 #if
@@ -917,6 +849,13 @@ SC028::Send {Blind}{U+0027} ; '
 >!<^SC028::Send {Blind}{U+031a} ; ̚
 +>!<^SC028::Send {Blind}{U+0301} ; ́
 
+; QWERTY ~
+#if
+SC029::Send {Blind}{U+0060} ; `
++SC029::Send {Blind}{U+007c} ; |
+>!<^SC029::Send {Blind}{U+00ac} ; ¬
++>!<^SC029::Send {Blind}{U+007c} ; |
+
 ; QWERTY \
 #if
 SC02b::Send {Blind}{U+0023} ; #
@@ -1145,15 +1084,15 @@ SC034::Send {Blind}{U+002e} ; .
 #if
 SC035::Send {Blind}{U+002f} ; /
 +SC035::Send {Blind}{U+003f} ; ?
->!<^SC035::Send {Blind}{U+0323} ; ̣
-+>!<^SC035::Send {Blind}{U+00bf} ; ¿
+>!<^SC035::Send {Blind}{U+00bf} ; ¿
++>!<^SC035::Send {Blind}{U+0323} ; ̣
 
 ; QWERTY Space
 #if
 SC039::Send {Blind}{U+0020} ;  
 +SC039::Send {Blind}{U+0020} ;  
->!<^SC039::Return
-+>!<^SC039::Return
+>!<^SC039::Send {Blind}{U+00a0} ;  
++>!<^SC039::Send {Blind}{U+00a0} ;  
 
 ; QWERTY Iso
 #if
@@ -1168,3 +1107,10 @@ SC053::Send {Blind}{U+002e} ; .
 +SC053::Send {Blind}{U+002e} ; .
 >!<^SC053::Return
 +>!<^SC053::Return
+
+; QWERTY KP_Enter
+#if
+SC11c::Send {Enter}
++SC11c::Send {NumpadEnter}
+>!<^SC11c::Return
++>!<^SC11c::Return

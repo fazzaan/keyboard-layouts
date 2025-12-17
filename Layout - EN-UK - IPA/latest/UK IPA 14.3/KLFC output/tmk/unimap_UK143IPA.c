@@ -40,7 +40,7 @@ const action_t actionmaps[][UNIMAP_ROWS][UNIMAP_COLS] PROGMEM = {
      GRV,   1,   2,   3,   4,   5,   6,   7,   8,   9,   0,MINS, EQL,JYEN,BSPC,      INS,HOME,PGUP,    NLCK,PSLS,PAST,PMNS,
      TAB,   Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,LBRC,RBRC,      FN0,      DEL, END,PGDN,      P7,  P8,  P9,PPLS,
     CAPS,   A,   S,   D,   F,   G,   H,   J,   K,   L,SCLN,QUOT,     NUHS, ENT,                          P4,  P5,  P6,PCMM,
-     FN1,BSLS,   Z,   X,   C,   V,   B,   N,   M,COMM, DOT,SLSH,       RO, FN2,            UP,           P1,  P2,  P3,PENT,
+     FN1,BSLS,   Z,   X,   C,   V,   B,   N,   M,COMM, DOT,SLSH,       RO, FN2,            UP,           P1,  P2,  P3, ENT,
     LCTL,LGUI,LALT,MHEN,           SPC,          HENK,KANA,RALT,RGUI, APP,RCTL,     LEFT,DOWN,RGHT,      P0,      DOT,PEQL
     ),
     // Shift
@@ -50,7 +50,7 @@ const action_t actionmaps[][UNIMAP_ROWS][UNIMAP_COLS] PROGMEM = {
     BSLS,TRNS,QUOT,  NO,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS,    TRNS,TRNS,TRNS,TRNS,
     TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,      GRV,     TRNS,TRNS,TRNS,    TRNS,TRNS,TRNS,TRNS,
     TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,   2,     TRNS,TRNS,                        TRNS,TRNS,TRNS,TRNS,
-    TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,          TRNS,         TRNS,TRNS,TRNS,TRNS,
+    TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,          TRNS,         TRNS,TRNS,TRNS,PENT,
     TRNS,TRNS,TRNS,TRNS,          TRNS,          TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS,    TRNS,      FN3,TRNS
     ),
     // AltGr
@@ -60,7 +60,7 @@ const action_t actionmaps[][UNIMAP_ROWS][UNIMAP_COLS] PROGMEM = {
       NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,TRNS,TRNS,     TRNS,TRNS,TRNS,    TRNS,TRNS,TRNS,TRNS,
     TRNS,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,     BSLS,     TRNS,TRNS,TRNS,    TRNS,TRNS,TRNS,TRNS,
     TRNS,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,     TRNS,TRNS,                        TRNS,TRNS,TRNS,TRNS,
-    TRNS,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,     TRNS,TRNS,          TRNS,         TRNS,TRNS,TRNS,TRNS,
+    TRNS,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,     TRNS,TRNS,          TRNS,         TRNS,TRNS,TRNS,  NO,
     TRNS,TRNS,TRNS,TRNS,            NO,          TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS,    TRNS,       NO,TRNS
     ),
     // Shift+AltGr

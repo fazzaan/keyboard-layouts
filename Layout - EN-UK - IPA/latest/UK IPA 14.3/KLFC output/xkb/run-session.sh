@@ -2,7 +2,7 @@
 set -eu
 
 xkb_dir=$(dirname "$0")
-layout="UK142IPA"
+layout="UK143IPA"
 mod=""
 variant="basic"
 warning_level=0

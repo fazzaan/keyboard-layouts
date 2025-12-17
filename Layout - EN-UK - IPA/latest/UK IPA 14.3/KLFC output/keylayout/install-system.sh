@@ -3,7 +3,7 @@ set -eu
 
 dir_from=$(dirname "$0")
 dir_to="/Library/Keyboard Layouts"
-layout="UK142IPA"
+layout="UK143IPA"
 
 OPTIND=1
 
